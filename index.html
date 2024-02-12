@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <section class="content">
+    <header class="content__header">
+      <div class="content__header__logo">
+        <a href="#"><img class="content__header__a__img__logo" src="./img/header_logo_logo.svg" alt="лого"></a>
+        <a href="#">
+          <svg class="content__header__a__svg__search" width="26" height="27" viewBox="0 0 26 27" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M18.0589 17.6251C19.6705 15.865 20.6275 13.6039 20.769 11.2216C20.9106 8.83932 20.2281 6.48088 18.8362 4.54232C17.4443 2.60377 15.4278 1.20318 13.1252 0.575765C10.8227 -0.0516554 8.37437 0.132305 6.19143 1.09675C4.0085 2.0612 2.22389 3.74739 1.1373 5.87217C0.0507149 7.99695 -0.271678 10.4309 0.224264 12.7653C0.720206 15.0997 2.00428 17.1923 3.86085 18.6919C5.71741 20.1914 8.0334 21.0064 10.4199 21.0001C12.6723 21.0031 14.8638 20.2691 16.6599 18.9101L24.4079 26.7171C24.4934 26.8061 24.5958 26.8772 24.7091 26.9261C24.8225 26.9751 24.9444 27.0009 25.0679 27.0021C25.1916 27.0024 25.314 26.9773 25.4276 26.9283C25.5411 26.8793 25.6434 26.8074 25.7279 26.7171C25.9018 26.5362 25.999 26.295 25.999 26.0441C25.999 25.7931 25.9018 25.5519 25.7279 25.371L18.0589 17.6251ZM1.88589 10.5001C1.89873 8.81477 2.41021 7.17101 3.35586 5.776C4.30151 4.38098 5.63899 3.29715 7.1997 2.66114C8.76042 2.02513 10.4745 1.86542 12.1258 2.20213C13.7772 2.53884 15.2919 3.3569 16.479 4.55319C17.6661 5.74948 18.4725 7.27044 18.7965 8.92433C19.1204 10.5782 18.9475 12.291 18.2995 13.8468C17.6515 15.4026 16.5574 16.7316 15.1551 17.6665C13.7529 18.6014 12.1052 19.1002 10.4199 19.1C8.14843 19.0892 5.97409 18.1775 4.3741 16.5652C2.77412 14.9528 1.87924 12.7715 1.88589 10.5001Z"
+              fill="#E8E8E8" />
+          </svg>
+        </a>
+      </div>
+      <div class="content__header__menu">
+        <a href="#">
+          <svg class="content__header__a__svg__menu" width="32" height="23" viewBox="0 0 32 23" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" fill="#E8E8E8" />
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="content__header__a__svg__login" width="29" height="29" viewBox="0 0 29 29" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M14.5 19.937C19 19.937 22.656 15.464 22.656 9.968C22.656 4.472 19 0 14.5 0C13.3631 0.0217413 12.2463 0.303398 11.2351 0.823397C10.2239 1.34339 9.34507 2.08794 8.66602 3C7.12663 4.99573 6.30819 7.45381 6.34399 9.974C6.34399 15.465 10 19.937 14.5 19.937ZM14.5 1.813C18 1.813 20.844 5.472 20.844 9.969C20.844 14.466 17.998 18.125 14.5 18.125C11.002 18.125 8.15603 14.465 8.15503 9.969C8.15403 5.473 11 1.813 14.5 1.813ZM20.844 18.125C20.6036 18.125 20.373 18.2205 20.203 18.3905C20.033 18.5605 19.9375 18.7911 19.9375 19.0315C19.9375 19.2719 20.033 19.5025 20.203 19.6725C20.373 19.8425 20.6036 19.938 20.844 19.938C22.526 19.9399 24.1386 20.6088 25.3279 21.7982C26.5172 22.9875 27.1861 24.6 27.188 26.282C27.1875 26.5221 27.0918 26.7523 26.922 26.9221C26.7522 27.0918 26.5221 27.1875 26.282 27.188H2.71997C2.47985 27.1875 2.24975 27.0918 2.07996 26.9221C1.91016 26.7523 1.81449 26.5221 1.81396 26.282C1.81608 24.6001 2.48517 22.9877 3.67444 21.7985C4.86371 20.6092 6.47608 19.9401 8.15796 19.938C8.39825 19.938 8.62868 19.8425 8.79858 19.6726C8.96849 19.5027 9.06396 19.2723 9.06396 19.032C9.06396 18.7917 8.96849 18.5613 8.79858 18.3914C8.62868 18.2215 8.39825 18.126 8.15796 18.126C5.99541 18.1279 3.92201 18.9875 2.39258 20.5164C0.863144 22.0453 0.00264777 24.1185 0 26.281C0.000794067 27.0019 0.287502 27.693 0.797241 28.2027C1.30698 28.7125 1.99811 28.9992 2.71899 29H26.282C27.0027 28.9989 27.6936 28.7121 28.2031 28.2024C28.7126 27.6927 28.9992 27.0017 29 26.281C28.9974 24.1187 28.1372 22.0457 26.6083 20.5168C25.0793 18.9878 23.0063 18.1276 20.844 18.125Z"
+              fill="#E8E8E8" />
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="content__header__a__svg__basket" width="32" height="29" viewBox="0 0 32 29" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M26.2009 29C25.5532 28.9738 24.9415 28.6948 24.4972 28.2227C24.0529 27.7506 23.8114 27.1232 23.8245 26.475C23.8376 25.8269 24.1043 25.2097 24.5673 24.7559C25.0303 24.3022 25.6527 24.048 26.301 24.048C26.9493 24.048 27.5717 24.3022 28.0347 24.7559C28.4977 25.2097 28.7644 25.8269 28.7775 26.475C28.7906 27.1232 28.549 27.7506 28.1047 28.2227C27.6604 28.6948 27.0488 28.9738 26.401 29H26.2009ZM6.75293 26.32C6.75293 25.79 6.91011 25.2718 7.20459 24.8311C7.49907 24.3904 7.91764 24.0469 8.40735 23.844C8.89705 23.6412 9.43594 23.5881 9.95581 23.6915C10.4757 23.7949 10.9532 24.0502 11.328 24.425C11.7028 24.7998 11.9581 25.2773 12.0615 25.7972C12.1649 26.317 12.1118 26.8559 11.9089 27.3456C11.7061 27.8353 11.3626 28.2539 10.9219 28.5483C10.4812 28.8428 9.96304 29 9.43298 29C9.08087 29.0003 8.73212 28.9311 8.40674 28.7966C8.08135 28.662 7.78569 28.4646 7.53662 28.2158C7.28755 27.9669 7.09001 27.6713 6.9552 27.3461C6.82039 27.0208 6.75098 26.6721 6.75098 26.32H6.75293ZM10.553 20.686C10.2935 20.6868 10.0409 20.6024 9.83411 20.4457C9.62727 20.2891 9.47758 20.0689 9.40796 19.819L4.57495 2.36401H1.18201C0.868521 2.36401 0.567859 2.23947 0.346191 2.01781C0.124523 1.79614 0 1.49549 0 1.18201C0 0.868519 0.124523 0.567873 0.346191 0.346205C0.567859 0.124537 0.868521 5.81268e-06 1.18201 5.81268e-06H5.46301C5.7225 -0.00080736 5.97504 0.0837201 6.18176 0.240568C6.38848 0.397416 6.53784 0.617884 6.60693 0.868006L11.4399 18.323H24.6179L29.001 8.27501H14.401C14.2428 8.27961 14.0854 8.25242 13.9379 8.19507C13.7904 8.13771 13.6559 8.05134 13.5424 7.94108C13.4288 7.83082 13.3386 7.69891 13.277 7.55315C13.2154 7.40739 13.1836 7.25075 13.1836 7.0925C13.1836 6.93426 13.2154 6.77762 13.277 6.63186C13.3386 6.4861 13.4288 6.35419 13.5424 6.24393C13.6559 6.13367 13.7904 6.0473 13.9379 5.98994C14.0854 5.93259 14.2428 5.90541 14.401 5.91001H30.814C31.0097 5.90996 31.2022 5.95866 31.3744 6.05172C31.5465 6.14478 31.6928 6.27926 31.7999 6.44301C31.9078 6.60729 31.9734 6.79569 31.9908 6.99145C32.0083 7.18721 31.9771 7.38424 31.9 7.565L26.495 19.977C26.4026 20.1876 26.251 20.3668 26.0585 20.4927C25.866 20.6186 25.641 20.6858 25.411 20.686H10.553Z"
+              fill="#E8E8E8" />
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="main__first-section">
+        <div class="main__first-section__picture"></div>
+
+        <div class="main__first-section__text">
+          <div class="main__first-section__text__div">
+            <div class="main__first-section__text__div-rectangle"></div>
+            <div class="main__first-section__text__div-p">
+              <span class="main__first-section__text__div-p__span1">THE BRAND</span>
+              <br>
+              <span class="main__first-section__text__div-p__span2">OF LUXERIOUS</span>
+              <span class="main__first-section__text__div-p__span3">FASHION</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__offer">
+        <div class="main__offer__top">
+          <div class="main__offer__top__card">
+            <img src="./img/offer_card_1.png" alt="товар">
+            <p class="main__offer__top__card__p">
+              30% OFF<br>
+              <span class="main__offer__top__card__p__span">FOR WOMEN</span>
+            </p>
+          </div>
+
+          <div class="main__offer__top__card">
+            <img src="./img/offer_card_2.png" alt="товар">
+            <p class="main__offer__top__card__p">
+              HOT DEAL<br>
+              <span class="main__offer__top__card__p__span">FOR MEN</span>
+            </p>
+          </div>
+
+          <div class="main__offer__top__card">
+            <img src="./img/offer_card_3.png" alt="товар">
+            <p class="main__offer__top__card__p">
+              NEW ARRIVALS<br>
+              <span class="main__offer__top__card__p__span">FOR KIDS</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="main__offer__bottom">
+          <div class="main__offer__bottom__card">
+            <img src="./img/offer_card_bottom.png" alt="товар">
+            <p class="main__offer__bottom__card__p">
+              LUXIROUS &amp; TRENDY<br>
+              <span class="main__offer__top__card__p__span">ACCESORIES</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__products">
+        <div class="main__products__h">
+          <h2 class="main__products__h-1">Fetured Items</h2>
+          <h2 class="main__products__h-2">
+            Shop for items based on what we featured in this week
+          </h2>
+        </div>
+
+        <div class="main__products__cards">
+          <div class="main__products__cards__card">
+            <div class="main__products__cards__card__img">
+              <img src="./img/products_card_1.jpg" alt="карточка товара">
+            </div>
+            <div class="main__products__cards__card__text">
+              <h2 class="main__products__cards__card__text__title">
+                ELLERY X M'O CAPSULE
+              </h2>
+              <p class="main__products__cards__card__text__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <h2 class="main__products__cards__card__text__price">$52.00</h2>
+            </div>
+          </div>
+
+          <div class="main__products__cards__card">
+            <div class="main__products__cards__card__img">
+              <img src="./img/products_card_2.png" alt="карточка товара">
+            </div>
+            <div class="main__products__cards__card__text">
+              <h2 class="main__products__cards__card__text__title">
+                ELLERY X M'O CAPSULE
+              </h2>
+              <p class="main__products__cards__card__text__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <h2 class="main__products__cards__card__text__price">$52.00</h2>
+            </div>
+          </div>
+
+          <div class="main__products__cards__card">
+            <div class="main__products__cards__card__img">
+              <img src="./img/products_card_3.jpg" alt="карточка товара">
+            </div>
+            <div class="main__products__cards__card__text">
+              <h2 class="main__products__cards__card__text__title">
+                ELLERY X M'O CAPSULE
+              </h2>
+              <p class="main__products__cards__card__text__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <h2 class="main__products__cards__card__text__price">$52.00</h2>
+            </div>
+          </div>
+
+          <div class="main__products__cards__card">
+            <div class="main__products__cards__card__img">
+              <img src="./img/products_card_4.jpg" alt="карточка товара">
+            </div>
+            <div class="main__products__cards__card__text">
+              <h2 class="main__products__cards__card__text__title">
+                ELLERY X M'O CAPSULE
+              </h2>
+              <p class="main__products__cards__card__text__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <h2 class="main__products__cards__card__text__price">$52.00</h2>
+            </div>
+          </div>
+
+          <div class="main__products__cards__card">
+            <div class="main__products__cards__card__img">
+              <img src="./img/products_card_5.jpg" alt="карточка товара">
+            </div>
+            <div class="main__products__cards__card__text">
+              <h2 class="main__products__cards__card__text__title">
+                ELLERY X M'O CAPSULE
+              </h2>
+              <p class="main__products__cards__card__text__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <h2 class="main__products__cards__card__text__price">$52.00</h2>
+            </div>
+          </div>
+
+          <div class="main__products__cards__card">
+            <div class="main__products__cards__card__img">
+              <img src="./img/products_card_6.jpg" alt="карточка товара">
+            </div>
+            <div class="main__products__cards__card__text">
+              <h2 class="main__products__cards__card__text__title">
+                ELLERY X M'O CAPSULE
+              </h2>
+              <p class="main__products__cards__card__text__description">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <h2 class="main__products__cards__card__text__price">$52.00</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__products__button-div">
+          <button class="main__products__button-div__button">
+            <span class="main__products__button__button-div__span">Browse All Product</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="main__feature">
+        <div class="main__feature__div">
+          <img src="./img/feature_img_1_car.svg" alt="машинка" class="main__feature__div__img">
+          <h2 class="main__feature__div__h2 item1">Free Delivery</h2>
+          <p class="main__feature__div__p">
+            Worldwide delivery on all. Authorit tively morph next-generation
+            innov tion with extensive models.
+          </p>
+        </div>
+        <div class="main__feature__div">
+          <img src="./img/feature_img_2_percentil.svg" alt="проценты" class="main__feature__div__img">
+          <h2 class="main__feature__div__h2 item2">Sales &amp; discounts</h2>
+          <p class="main__feature__div__p">
+            Worldwide delivery on all. Authorit tively morph next-generation
+            innov tion with extensive models.
+          </p>
+        </div>
+        <div class="main__feature__div">
+          <img src="./img/feature_img_3_crown.svg" alt="корона" class="main__feature__div__img">
+          <h2 class="main__feature__div__h2 item3">Quality assurance</h2>
+          <p class="main__feature__div__p">
+            Worldwide delivery on all. Authorit tively morph next-generation
+            innov tion with extensive models.
+          </p>
+        </div>
+      </section>
+
+      <div class="main__subscribe__footer">
+        <section class="main__subscribe">
+          <div class="main__subscribe__background-img"></div>
+
+          <div class="main__subscribe__div__subscribe-info">
+            <img src="./img/subscribe_face.png" alt="лицо" class="main__subscribe__div__subscribe-info__img">
+            <p class="main__subscribe__div__subscribe-info__p">
+              “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+              <em>a pulvinar purus condimentum“</em>
+            </p>
+          </div>
+
+          <div class="main__subscribe__div__subscribe">
+            <p class="main__subscribe__div__subscribe__p">
+              SUBSCRIBE<br>
+              <span class="main__subscribe__div__subscribe__p__span">FOR OUR NEWLETTER AND PROMOTION</span>
+            </p>
+            <div class="main__subscribe__div__subscribe__div-input-button">
+              <input class="main__subscribe__div__input" type="email" placeholder="      Enter Your Email">
+              <button class="main__subscribe__div__button">Subscribe</button>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <h2 class="footer__copyright">
+            &copy; 2022 Brand All Rights Reserved.
+          </h2>
+          <div class="footer__copyright__social-icons">
+            <div class="footer__copyright__social-icons__div">
+              <a href="#">
+                <svg width="8.070312" height="14.720001" viewBox="0 0 8.07031 14.72" fill="none"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <defs />
+                  <path id="Vector"
+                    d="M7.5415 8.28L7.95996 5.61603L5.34338 5.61603L5.34338 3.8873C5.34338 3.15848 5.70886 2.44806 6.88074 2.44806L8.07031 2.44806L8.07031 0.179962C8.07031 0.179962 6.99084 0 5.95874 0C3.80383 0 2.39526 1.27594 2.39526 3.58569L2.39526 5.61603L0 5.61603L0 8.28L2.39526 8.28L2.39526 14.72L5.34338 14.72L5.34338 8.28L7.5415 8.28Z"
+                    fill="#000000" fill-opacity="1.000000" fill-rule="nonzero" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="footer__copyright__social-icons__div">
+              <a href="#">
+                <svg width="14.907471" height="14.879974" viewBox="0 0 14.9075 14.88" fill="none"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <defs />
+                  <path id="Vector1"
+                    d="M7.45532 3.62494C5.34021 3.62494 3.63416 5.32828 3.63416 7.44C3.63416 9.5517 5.34021 11.255 7.45532 11.255C9.57056 11.255 11.2766 9.5517 11.2766 7.44C11.2766 5.32828 9.57056 3.62494 7.45532 3.62494ZM7.45532 9.92026C6.0885 9.92026 4.97107 8.80795 4.97107 7.44C4.97107 6.07202 6.08521 4.95972 7.45532 4.95972C8.82556 4.95972 9.9397 6.07202 9.9397 7.44C9.9397 8.80795 8.82227 9.92026 7.45532 9.92026ZM12.3242 3.4689C12.3242 3.96362 11.925 4.35873 11.4329 4.35873C10.9374 4.35873 10.5416 3.9603 10.5416 3.4689C10.5416 2.97748 10.9407 2.57904 11.4329 2.57904C11.925 2.57904 12.3242 2.97748 12.3242 3.4689ZM14.855 4.37201C14.7985 3.18002 14.5258 2.12418 13.6511 1.25424C12.7798 0.384338 11.7223 0.112061 10.5283 0.0523071C9.29785 -0.0174255 5.60962 -0.0174255 4.37915 0.0523071C3.18848 0.108734 2.13098 0.381012 1.25623 1.25092C0.381592 2.12085 0.112183 3.1767 0.0523682 4.36871C-0.0174561 5.59723 -0.0174561 9.27945 0.0523682 10.508C0.108887 11.7 0.381592 12.7558 1.25623 13.6257C2.13098 14.4957 3.18518 14.7679 4.37915 14.8277C5.60962 14.8974 9.29785 14.8974 10.5283 14.8277C11.7223 14.7712 12.7798 14.499 13.6511 13.6257C14.5225 12.7558 14.7952 11.7 14.855 10.508C14.9249 9.27945 14.9249 5.60052 14.855 4.37201ZM13.2654 11.8261C13.006 12.4769 12.5038 12.9783 11.8486 13.2406C10.8676 13.6291 8.53955 13.5394 7.45532 13.5394C6.37122 13.5394 4.03992 13.6257 3.06213 13.2406C2.41028 12.9816 1.90808 12.4802 1.64539 11.8261C1.25623 10.8466 1.34607 8.5224 1.34607 7.44C1.34607 6.35757 1.25964 4.03003 1.64539 3.05386C1.90479 2.40308 2.40698 1.9017 3.06213 1.6394C4.04321 1.25092 6.37122 1.34058 7.45532 1.34058C8.53955 1.34058 10.8708 1.25424 11.8486 1.6394C12.5005 1.89838 13.0027 2.39975 13.2654 3.05386C13.6544 4.03336 13.5647 6.35757 13.5647 7.44C13.5647 8.5224 13.6544 10.8499 13.2654 11.8261Z"
+                    fill="#000000" fill-opacity="1.000000" fill-rule="nonzero" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="footer__copyright__social-icons__div">
+              <a href="#">
+                <svg width="11.919312" height="15.597107" viewBox="0 0 11.9193 15.5971" fill="none"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <defs />
+                  <path id="Vector2"
+                    d="M6.33215 0C3.14746 0 0 2.13751 0 5.59686C0 7.79688 1.22913 9.04688 1.97412 9.04688C2.28137 9.04688 2.45837 8.18439 2.45837 7.94061C2.45837 7.64999 1.72266 7.03125 1.72266 5.82187C1.72266 3.30939 3.62231 1.52814 6.08069 1.52814C8.19446 1.52814 9.75891 2.73749 9.75891 4.95938C9.75891 6.61874 9.09778 9.73126 6.95605 9.73126C6.18311 9.73126 5.52197 9.16876 5.52197 8.36249C5.52197 7.18124 6.34143 6.03751 6.34143 4.81876C6.34143 2.75 3.42676 3.125 3.42676 5.625C3.42676 6.14999 3.49194 6.73126 3.72473 7.20938C3.29639 9.06561 2.42114 11.8312 2.42114 13.7437C2.42114 14.3344 2.50488 14.9156 2.56079 15.5063C2.66626 15.625 2.61353 15.6125 2.7749 15.5531C4.33936 13.3969 4.28345 12.975 4.99121 10.1531C5.37305 10.8844 6.36011 11.2781 7.14221 11.2781C10.4387 11.2781 11.9193 8.04376 11.9193 5.12811C11.9193 2.02499 9.2561 0 6.33215 0Z"
+                    fill="#000000" fill-opacity="1.000000" fill-rule="nonzero" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="footer__copyright__social-icons__div">
+              <a href="#">
+                <svg width="15.892334" height="12.994904" viewBox="0 0 15.8923 12.9949" fill="none"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <defs />
+                  <path id="Vector3"
+                    d="M14.2588 3.23856C14.2688 3.38068 14.2688 3.52286 14.2688 3.66498C14.2688 7.99997 10.9916 12.9949 5.00171 12.9949C3.15625 12.9949 1.44202 12.4568 0 11.5229C0.262207 11.5533 0.514282 11.5634 0.786499 11.5634C2.3092 11.5634 3.71094 11.0457 4.8302 10.1624C3.39832 10.132 2.19824 9.18781 1.78479 7.88831C1.98657 7.91876 2.18823 7.93906 2.40002 7.93906C2.69238 7.93906 2.98486 7.89844 3.25708 7.82739C1.76465 7.52283 0.645386 6.20303 0.645386 4.60913L0.645386 4.56854C1.07898 4.81219 1.58313 4.96448 2.11755 4.98474C1.24023 4.3959 0.665527 3.39084 0.665527 2.25378C0.665527 1.64465 0.826782 1.08627 1.10925 0.598969C2.71252 2.58881 5.12268 3.88828 7.82507 4.03043C7.77478 3.78677 7.74451 3.53299 7.74451 3.27917C7.74451 1.47208 9.19653 0 11.0016 0C11.9395 0 12.7865 0.395935 13.3815 1.03552C14.1176 0.893402 14.8234 0.619293 15.4486 0.243652C15.2065 1.0051 14.6923 1.64468 14.0167 2.05075C14.6721 1.97971 15.3075 1.79694 15.8923 1.54315C15.4487 2.19287 14.894 2.77155 14.2588 3.23856Z"
+                    fill="#000000" fill-opacity="1.000000" fill-rule="nonzero" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </main>
+  </section>
+</body>
+
+</html>
